@@ -7,7 +7,7 @@ Este documento sirve como una guía paso a paso para planificar, crear, lanzar y
 1.  [Planificación y Estrategia](#1-planificación-y-estrategia)
 2.  [Elección de Plataforma y Herramientas](#2-elección-de-plataforma-y-herramientas)
 3.  [Configuración Técnica (Dominio y Hosting)](#3-configuración-técnica-dominio-y-hosting)
-4.  [Diseño y Personalización](#4-diseño-y-personalización)
+4.  [Diseño Visual y Funcionalidad](#4-diseño-visual-y-funcionalidad)
 5.  [Creación de Contenido Inicial](#5-creación-de-contenido-inicial)
 6.  [Optimización SEO Básica](#6-optimización-seo-básica)
 7.  [Lanzamiento](#7-lanzamiento)
@@ -70,27 +70,46 @@ Pon tu blog online.
 
 ---
 
-## 4. Diseño y Personalización
+## 4. Diseño Visual y Funcionalidad
 
-Dale a tu blog un aspecto profesional y atractivo.
+Define cómo se verá y sentirá tu blog para los lectores, enfocándote en la usabilidad y la estética.
 
-* **Elegir un Tema (Theme) de WordPress:** Define la apariencia visual.
-    * Hay miles de temas gratuitos y de pago (premium). Busca temas optimizados para blogs/noticias (`News`, `Magazine`).
-    * *Consideraciones:* Responsive (adaptable a móviles), velocidad de carga, personalización, compatibilidad con plugins.
-    * *Temas populares:* Astra, GeneratePress, Kadence (muy flexibles), temas específicos de noticias en ThemeForest.
-    * *Acción:* Instala y activa un tema desde el panel de WordPress (`Apariencia > Temas > Añadir nuevo`).
-* **Personalizar el Tema:**
-    * Usa el "Personalizador" de WordPress (`Apariencia > Personalizar`) para ajustar colores, fuentes, logo, diseño de cabecera/pie de página, etc.
-    * Configura menús de navegación (`Apariencia > Menús`).
-    * Define la página de inicio (últimas entradas o una página estática).
-* **Instalar Plugins Esenciales:** Añaden funcionalidades.
-    * **SEO:** Rank Math o Yoast SEO (¡muy importante!).
-    * **Rendimiento/Caché:** WP Super Cache, W3 Total Cache, o un plugin premium como WP Rocket.
-    * **Seguridad:** Wordfence Security o Sucuri Security.
-    * **Formulario de Contacto:** Contact Form 7, WPForms Lite, o Gravity Forms (pago).
-    * **Anti-Spam:** Akismet (viene con WordPress).
-    * **(Opcional) Editor Visual:** Elementor, Beaver Builder (si tu tema no es suficiente).
-    * *Acción:* Instala y configura los plugins básicos desde `Plugins > Añadir nuevo`. No instales demasiados, solo los necesarios.
+* **Principios de Diseño Clave:**
+    * **Claridad y Legibilidad:** La prioridad número uno. Usa fuentes limpias y de tamaño adecuado (ej. 16px o más para el cuerpo del texto). Asegura un alto contraste entre el texto y el fondo (texto oscuro sobre fondo claro es lo más seguro).
+    * **Jerarquía Visual:** Guía la vista del lector. Los títulos deben ser más grandes y destacados que los subtítulos, y estos más que el texto normal. Usa espacios en blanco (márgenes, paddings) para separar elementos y evitar la sobrecarga visual.
+    * **Consistencia:** Mantén la misma paleta de colores, tipografías y estilo de botones/enlaces en todo el sitio. Esto crea una experiencia coherente y profesional.
+    * **Simplicidad:** Evita el desorden. Menos es más. Cada elemento en la página debe tener un propósito. Elimina distracciones innecesarias.
+    * **Diseño Adaptable (Responsive):** Tu blog DEBE verse y funcionar perfectamente en todos los tamaños de pantalla (móviles, tablets, ordenadores). La experiencia móvil es fundamental.
+
+* **Elementos Esenciales del Diseño y Funcionalidad:**
+    * **Página de Inicio (Homepage):**
+        * *Propósito:* Enganchar al visitante y mostrar la amplitud del contenido.
+        * *Diseño:* Considera un diseño tipo revista o portal de noticias. Usa rejillas (grids) para mostrar múltiples artículos con imágenes destacadas. Puedes tener una sección principal para la noticia más importante y bloques secundarios para diferentes categorías. Evita sobrecargarla; debe cargar rápido.
+        * *Funcionalidad:* Fácil navegación a las categorías principales y artículos recientes. Un buscador visible es útil.
+    * **Página de Artículo (Single Post):**
+        * *Propósito:* Facilitar la lectura y comprensión del contenido.
+        * *Diseño:* Título claro y grande. Imagen destacada relevante al inicio. Texto dividido en párrafos cortos y con subtítulos (H2, H3) para facilitar el escaneo. Espacio generoso alrededor del texto. Información del autor y fecha de publicación visibles.
+        * *Funcionalidad:* Botones para compartir en redes sociales fácilmente accesibles (al inicio/final o flotantes). Sección de comentarios (si decides habilitarla) bien integrada. Enlaces a artículos relacionados al final para mantener al lector en el sitio.
+    * **Navegación:**
+        * *Menú Principal:* Simple, claro y visible en la cabecera. Incluye las categorías más importantes y enlaces a páginas clave (Acerca de, Contacto). En móviles, debe convertirse en un menú "hamburguesa" fácil de usar.
+        * *Categorías/Etiquetas:* Permiten a los usuarios explorar temas específicos. Las páginas de categoría deben mostrar una lista clara de artículos.
+        * *Buscador:* Esencial para que los usuarios encuentren contenido específico. Debe ser fácil de localizar (normalmente en la cabecera).
+        * *Migas de Pan (Breadcrumbs - Opcional):* Muestran la ruta de navegación (Ej: Inicio > Software > Reviews > Nombre del Artículo), ayudando al usuario a ubicarse.
+    * **Identidad Visual (Branding):**
+        * *Logo:* Simple, reconocible y adaptable a diferentes tamaños. Ubicado prominentemente en la cabecera, enlazando a la página de inicio.
+        * *Paleta de Colores:* Elige 2-3 colores principales que reflejen la temática tecnológica (azules, grises, blancos son comunes, pero puedes añadir un color de acento vibrante). Úsalos consistentemente.
+        * *Tipografía:* Selecciona una fuente principal para el cuerpo del texto (legible y cómoda para leer párrafos largos) y otra para títulos (puede ser más distintiva, pero siempre legible). Google Fonts es un gran recurso.
+    * **Elementos Visuales:**
+        * *Imágenes:* Usa imágenes de alta calidad y relevantes. Optimízalas para la web para no ralentizar la carga. Asegúrate de tener los derechos de uso. Considera un estilo visual consistente.
+        * *Iconos:* Pueden ayudar a mejorar la interfaz y guiar al usuario (ej: iconos para redes sociales, categorías, búsqueda). Usa un set de iconos consistente.
+        * *Espacio en Blanco:* No subestimes el poder del espacio vacío. Ayuda a separar elementos, mejora la legibilidad y da una sensación de limpieza y profesionalidad.
+
+* **Experiencia del Usuario (UX):**
+    * **Velocidad de Carga:** Un sitio lento frustra a los usuarios. Optimiza imágenes y elige un buen hosting y tema.
+    * **Facilidad de Uso:** La navegación debe ser intuitiva. El usuario debe poder encontrar lo que busca rápidamente.
+    * **Accesibilidad:** Considera usuarios con diferentes capacidades (contraste adecuado, texto alternativo en imágenes, navegación por teclado).
+
+* *Acción:* Elige una plantilla (tema) que facilite la implementación de estos principios. Dedica tiempo a personalizarla usando las opciones visuales disponibles, enfocándote en la claridad, la coherencia y la experiencia móvil. Prueba tu diseño en diferentes dispositivos. Pide opiniones a otros.
 
 ---
 
